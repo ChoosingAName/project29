@@ -48,7 +48,7 @@ function setup(){
     box24 = new Box(730,-70,50,75) 
     box25 = new Box(375,20,50,75)  
   
-    cannonthing = new Ball(100,10,10,10)
+    cannonthing = new Ball(100,10,30,10)
 
     slingshot = new SlingShot(cannonthing.body,{x:200, y:100});
 }
